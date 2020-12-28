@@ -1,5 +1,5 @@
 # ImageRepository-API
-A API to store images, prices, details in a hosted SQL DB. 
+An API to store images, prices, details in a hosted SQL DB. 
 
 
 The API repersents one you would use to power the backend of a online store, holding prices, names of products along with images in an SQL database containing the inventory. 
@@ -51,3 +51,8 @@ curl -X PUT -H {“name":"Testing123","price":200, "quantity":3.0}' -H 'Content-
 curl -X PUT -H "Content-Type: application/json" -d {“name":"Testing123","price":200, "quantity":3.0}' http://localhost:9000/update
 ```
 
+
+## DELETE Functions 
+```
+curl -X DELETE http://localhost:9000/delete/{1}
+```
