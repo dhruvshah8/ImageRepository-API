@@ -15,7 +15,7 @@ The API repersents one you would use to power the backend of a online store, hol
 Images are processed in the database through an image compressio algorithm which converts .jpg files into byte[] arrays. As a result, this allows quicker data transfers, secure image uploads and less space in database memory.  
 
 ## How To Use: 
-''' 
+```
 1. git@github.com:dhruvshah8/ImageRepository-API.git
 
-''' 
+```
