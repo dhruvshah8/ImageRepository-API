@@ -1,6 +1,6 @@
 # Image Repository API
 An API to store images, prices, details in a hosted SQL DB. 
-
+- In Progress 
 
 The API repersents one you would use to power the backend of a online store, holding prices, names of products along with images in an SQL database containing the inventory. 
 
