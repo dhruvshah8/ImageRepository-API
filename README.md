@@ -21,4 +21,14 @@ Images are processed in the database through an image compressio algorithm which
 3. Open terminal/cmd 
 ```
 
+## EndPoints: 
+Here are some following examples on how to use the API endpoints. 
 
+### POST Functions
+```
+curl -d '{"name":"Testing123","price":200, "quantity":3.0, "location":"Users/user/Downloads/Test1.jpg"}' -H 'Content-Type: application/json' http://localhost:9000/addProduct
+```
+More than one product can be uploaded using 
+```
+http://localhost:9000/addProducts 
+```
