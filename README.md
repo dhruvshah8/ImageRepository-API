@@ -16,6 +16,9 @@ Images are processed in the database through an image compressio algorithm which
 
 ## How To Use: 
 ```
-1. git@github.com:dhruvshah8/ImageRepository-API.git
-
+1. git clone git@github.com:dhruvshah8/ImageRepository-API.git
+2. Run CrudApiApplication.Java
+3. Open terminal/cmd 
 ```
+
+
