@@ -1,4 +1,4 @@
-# ImageRepository-API
+# Image Repository API
 An API to store images, prices, details in a hosted SQL DB. 
 
 
@@ -11,6 +11,13 @@ The API repersents one you would use to power the backend of a online store, hol
 - Change inventory 
 - View bulk images 
 - Quick delete 
+
+### Technology:
+- JAVA 
+- Spring Boot
+- MySQL 
+- PhP
+- Image Compression
 
 Images are processed in the database through an image compressio algorithm which converts .jpg files into byte[] arrays. As a result, this allows quicker data transfers, secure image uploads and less space in database memory.  
 
