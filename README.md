@@ -24,7 +24,7 @@ Images are processed in the database through an image compressio algorithm which
 ## EndPoints: 
 Here are some following examples on how to use the API endpoints. 
 
-### POST Functions
+## POST Functions
 ```
 curl -d '{"name":"Testing123","price":200, "quantity":3.0, "location":"Users/user/Downloads/Test1.jpg"}' -H 'Content-Type: application/json' http://localhost:9000/addProduct
 ```
@@ -32,3 +32,22 @@ More than one product can be uploaded using
 ```
 http://localhost:9000/addProducts 
 ```
+
+
+## GET Fucntions
+All products: 
+```
+curl http://localhost:9000/products/
+```
+Product bu ID: 
+```
+curl http://localhost:9000/productById/{1}
+```
+
+## PUT & UPDATE: 
+```
+curl -X PUT -H {“name":"Testing123","price":200, "quantity":3.0}' -H 'Content-Type: application/json' http://localhost:9000/addProduct
+
+curl -X PUT -H "Content-Type: application/json" -d {“name":"Testing123","price":200, "quantity":3.0}' http://localhost:9000/update
+```
+
